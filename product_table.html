@@ -3,30 +3,48 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>PRODUCTS</title>
+        <title>Product Table</title>
         <style>
             table {
-                width: 100%;
-                border-collapse: collapse;
-            }
-            th, td {
-                border: 1px solid #ccc;
-                padding: 8px;
-                text-align: center;
-            }
-            th {
-                background-color: #f2f2f2;
-            }
-            .tr1{
-                background-color: aqua;
-            }
-            .tr2{
-                background-color:darkorchid;
-            }
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        th, td {
+            border: 1px solid #dddddd;
+            padding: 12px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+            font-size: 1.1em;
+            text-transform: uppercase;
+            color: #333;
+            text-align: center;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        tr:nth-child(odd) {
+            background-color: #ffffff;
+        }
+
+        td {
+            color: #555;
+        }
+
+        td:hover {
+            background-color: #e0e0e0;
+        }
         </style>
     </head>
     <body>
-        <h1>PRODUCTS</h1>
+        <h1>Food Product Table</h1>
         <table>
             <tr>
                 <th colspan="1">PRODUCT NAME</th>
@@ -34,31 +52,31 @@
                 <th colspan="1">PRICE</th>
                 <th colspan="1">AVAILABILITY</th>
             </tr>
-            <tr class="tr2">
+            <tr>
                 <td>Banana</td>
                 <td>Fruit</td>
                 <td>50</td>
                 <td>Available Today</td>
             </tr>
-            <tr class="tr1">
+            <tr>
                 <td>Strawberry</td>
                 <td>Fruit</td>
                 <td>100</td>
                 <td>Available Tomorrow</td>
             </tr>
-            <tr class="tr2">
+            <tr>
                 <td>Okra</td>
                 <td>Vegetable</td>
                 <td>10</td>
                 <td>Available Everyday</td>
             </tr>
-            <tr class="tr1">
+            <tr>
                 <td>Mars</td>
                 <td>Chocolate</td>
                 <td>15</td>
                 <td>Available Every Sunday</td>
             </tr>
-            <tr class="tr2">
+            <tr>
                 <td>Whiskey</td>
                 <td>Alcohol</td>
                 <td>150</td>
